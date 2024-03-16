@@ -20,7 +20,15 @@ The frontend of our application is powered by a modern and robust tech stack, ca
  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
 
+## Clone the Repository
+```
+https://github.com/Sai-Dithvika/Vasgisht-Hackathon/frontend
+```
 
+## Frontend dependecies to be installed
+```
+npm i tailwind axios framer-motion 
+```
 - **Next.js** 
   Next.js is a popular React framework that enables server-side rendering, static site generation, and seamless client-side routing, providing enhanced performance and SEO benefits.
 
