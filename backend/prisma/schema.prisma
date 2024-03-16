@@ -1,0 +1,109 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+   provider = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+
+}
+
+model User {
+  id             String           @unique @default(uuid())
+  email          String           @unique
+  password       String
+  username       String           @unique
+  age            Int
+  phone_no       String           @unique
+  points         Int              @default(0)
+  rank           String           @default("rookie")
+  avatar         String           @default("https://image.png")
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @default(now()) @updatedAt
+  moduleProgress ModuleProgress[]
+  weeklyscore    WeeklyScore[]
+
+}
+
+model Module {
+  id             Int              @unique
+  name           String
+  description    String
+  total_points   Int              @default(100)
+  earned_points  Int              @default(0)
+  content        Json 
+  quiz           Quiz[]
+  subModuels     Submodule[]
+  ModuleProgress ModuleProgress[]
+}
+
+model Submodule {
+  id                Int                 @unique @default(autoincrement())
+  name              String
+  description       String
+  animations        String[]
+  module            Module              @relation(fields: [moduleID], references: [id])
+  content           Json
+  moduleID          Int                 
+  quiz              Quiz[]
+  SubmoduleProgress SubmoduleProgress[]
+}
+
+model Quiz {
+  id          Int       @unique @default(autoincrement())
+  submodule   Submodule @relation(fields: [submoduleID], references: [id])
+  module      Module   @relation(fields: [moduleID] , references: [id])
+  moduleID    Int
+  submoduleID Int       
+  questions   Json 
+}
+
+model ModuleProgress {
+  id                Int                 @unique @default(autoincrement())
+  user              User                @relation(fields: [userId], references: [id])
+  userId            String              @unique
+  module            Module              @relation(fields: [moduleId], references: [id])
+  moduleId          Int
+  total_points      Int
+  earned_points     Int
+  submoduleProgress SubmoduleProgress[] // Relationship to track submodule progress for each user's module
+  completed         Boolean             @default(false)
+}
+
+model SubmoduleProgress {
+  id               Int            @unique @default(autoincrement())
+  moduleProgress   ModuleProgress @relation(fields: [moduleProgressId], references: [id])
+  moduleProgressId Int
+  total_points     Int
+  earned_points    Int
+  submodule        Submodule      @relation(fields: [submoduleId], references: [id])
+  submoduleId      Int
+  completed        Boolean        @default(false)
+}
+
+model WeeklyScore {
+  id     Int    @id @unique @default(autoincrement())
+  user   User   @relation(fields: [userId], references: [id])
+  userId String @unique
+  points Int
+}
+
+model LeaderBoard {
+  id         Int    @unique @default(autoincrement())
+  rank       String
+  weekNumber Int
+  topUsers   String[]
+}
+
+model PasswordReset {
+  email     String   @unique
+  token     String
+  expiresAt DateTime
+}
