@@ -2,7 +2,7 @@
 ### Tech Stack and Models
 
 - **Frontend** <!-- Frontend repository -->
-  - [Frontend README](https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/frontend/README.md) <!-- Link to frontend README -->
+  - [Frontend README](https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/frontend/Frontend.md) <!-- Link to frontend README -->
     <!-- Add comments or description about the frontend tech stack here -->
     <!-- For example: "Built with React.js and styled with CSS, the frontend handles the user interface and client-side interactions." -->
 
