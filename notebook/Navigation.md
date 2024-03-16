@@ -22,6 +22,6 @@
     <!-- For example: "Utilizes Node.js and Express.js to manage server-side logic and API endpoints." -->
 
 - **ML Models** <!-- ML Models repository -->
-  - [ML Models README](https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/ml_models/README.md) <!-- Link to ML Models README -->
+  - [ML Models README](https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/notebook/model.md) <!-- Link to ML Models README -->
     <!-- Add comments or description about the machine learning models here -->
     <!-- For example: "Includes various machine learning models trained with TensorFlow for tasks such as sentiment analysis and recommendation systems." -->
