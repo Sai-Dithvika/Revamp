@@ -90,4 +90,4 @@ Integrating OneDNN and Intel CPUs can significantly improve the following aspect
 - **Interactive Applications**: Support for interactive applications that require quick feedback loops and real-time analytics.
 - **Cost-Effective Infrastructure**: Maximize the utility of existing Intel hardware without the need for specialized accelerators.
 <br />
-  <a href="https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/frontend/README.md"><img src="https://github.com/t-aswath/mdeditor/assets/119417646/d9574fc2-aa05-4492-b23b-aa9f3e31c60d"></a>
+  <a href="https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/notebook/Navigation.md"><img src="https://github.com/t-aswath/mdeditor/assets/119417646/d9574fc2-aa05-4492-b23b-aa9f3e31c60d"></a>
