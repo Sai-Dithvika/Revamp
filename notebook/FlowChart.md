@@ -32,5 +32,21 @@ In Quest to End Child Labour, players explore a vibrant village environment, int
 <br/>
 <br />
 
+## Flow-Chart
+
+<p align="center">
+  <a href="https://github.com/Sai-Dithvika/Vashisht-Hackathon/assets/118179484/4d73165e-40fd-46e9-8f48-0180af423173">
+    <img src="https://github.com/Sai-Dithvika/Vashisht-Hackathon/assets/118179484/4d73165e-40fd-46e9-8f48-0180af423173" alt="Image" width="500" />
+  </a>
+</p>
+
+- The flow chart provides a visual representation of the workflow within our system. It illustrates the sequence of steps and decision points involved in various processes, offering a clear understanding of how data flows and tasks are executed.
+
+- The flow chart serves as a valuable tool for stakeholders to comprehend the system's architecture, identify potential bottlenecks, and streamline processes for optimal efficiency. It enables effective communication among team members and facilitates troubleshooting during system maintenance.
+
+- Explore the flow chart to gain insights into our system's operations and enhance your understanding of its functionality.
+<br />
+<br />
+
   <a href="https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/notebook/Navigation.md"><img src="https://github.com/t-aswath/mdeditor/assets/119417646/d9574fc2-aa05-4492-b23b-aa9f3e31c60d"></a>
 
