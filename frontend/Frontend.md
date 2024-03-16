@@ -29,6 +29,10 @@ https://github.com/Sai-Dithvika/Vasgisht-Hackathon/frontend
 ```
 npm i tailwind axios framer-motion 
 ```
+## To run in Localhost
+```
+npm run dev 
+```
 - **Next.js** 
   Next.js is a popular React framework that enables server-side rendering, static site generation, and seamless client-side routing, providing enhanced performance and SEO benefits.
 
