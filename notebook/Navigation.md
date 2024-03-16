@@ -7,7 +7,7 @@
     <!-- For example: "Built with React.js and styled with CSS, the frontend handles the user interface and client-side interactions." -->
 
 - **Backend** <!-- Backend repository -->
-  - [Backend README](https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/backend/README.md) <!-- Link to backend README -->
+  - [Backend README](https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/backend/Backend.md) <!-- Link to backend README -->
     <!-- Add comments or description about the backend tech stack here -->
     <!-- For example: "Utilizes Node.js and Express.js to manage server-side logic and API endpoints." -->
 
