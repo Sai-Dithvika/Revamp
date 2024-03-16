@@ -8,7 +8,6 @@
 ---
 
 # BACKEND DOCS
-# BACKEND DOCS
 
 ## ROUTES
 
