@@ -71,4 +71,42 @@ EMAIL: ""
 PASSWORD: ""
 
 ```
-** this one is optional if you are using docker **
+## This one is optional if you are using docker 
+
+## Chatbot Bulding Overview with Hugginface
+- How to use
+
+You can use this model directly with a pipeline for text generation. Since the generation relies on some randomness, we set a seed for reproducibility:
+
+```
+from transformers import pipeline, set_seed
+generator = pipeline('text-generation', model='gpt2')
+set_seed(42)
+generator("Hello, I'm a language model,", max_length=30, num_return_sequences=5)
+
+[{'generated_text': "Hello, I'm a language model, a language for thinking, a language for expressing thoughts."},
+ {'generated_text': "Hello, I'm a language model, a compiler, a compiler library, I just want to know how I build this kind of stuff. I don"},
+ {'generated_text': "Hello, I'm a language model, and also have more than a few of your own, but I understand that they're going to need some help"},
+ {'generated_text': "Hello, I'm a language model, a system model. I want to know my language so that it might be more interesting, more user-friendly"},
+ {'generated_text': 'Hello, I\'m a language model, not a language model"\n\nThe concept of "no-tricks" comes in handy later with new'}]
+```
+## Here is how to use this model to get the features of a given text in PyTorch:
+
+```
+from transformers import GPT2Tokenizer, GPT2Model
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+model = GPT2Model.from_pretrained('gpt2')
+text = "Replace me by any text you'd like."
+encoded_input = tokenizer(text, return_tensors='pt')
+output = model(**encoded_input)
+```
+
+# And in tensorflow
+```
+from transformers import GPT2Tokenizer, TFGPT2Model
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+model = TFGPT2Model.from_pretrained('gpt2')
+text = "Replace me by any text you'd like."
+encoded_input = tokenizer(text, return_tensors='tf')
+output = model(encoded_input)
+```
