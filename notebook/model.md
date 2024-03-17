@@ -51,7 +51,7 @@ This project leverages the power of Intel One API for deep learning computations
   ]
 } ``` 
 ```
-## This is how your ENV file Should be for API and Openai
+## This is how your ENV file Should be for DB and Openai
 ```
 # Environment variables declared in this file are automatically made available to Prisma.
 # See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
@@ -71,3 +71,4 @@ EMAIL: ""
 PASSWORD: ""
 
 ```
+** this one is optional if you are using docker **

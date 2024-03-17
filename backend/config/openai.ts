@@ -5,15 +5,7 @@ dotenv.config();
 
 import OpenAI from 'openai';
 
-// const checkPrompt = `
-//   What is the purpose of traffic rules?
-//    A) To create chaos on the roads
-//    B) To ensure safety and order for all road users
-//    C) To make driving more fun
-//    D) To ignore while driving
 
-//    make this questions a little harder along with options
-// `;
 
 const gptassist = async (prompt:any) =>{
         const openai = new OpenAI({
