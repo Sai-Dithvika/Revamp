@@ -7,7 +7,7 @@ The AI-Powered Learning Assistant integrates cutting-edge natural language proce
 ## Intel One API & GPT-3.5
 This project leverages the power of Intel One API for deep learning computations and integrates GPT-3.5 from Open!AI and Hugging Face models for advanced natural language understanding, enabling personalized learning experiences and real-time assistance.
 
-## Overview if chatbot
+## Overview of chatbot
 
 <div>
   <img src="https://github.com/Sai-Dithvika/Vashisht-Hackathon/assets/118179484/29910c7c-981a-4c34-96aa-eed80cf02584" width="200px" style="margin-right: 180px;"/> 
