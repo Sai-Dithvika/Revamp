@@ -21,30 +21,14 @@ https://github.com/Kaarthik-07/daksh-hackathon/assets/127304665/420f4438-b437-49
 
 ## Meet Our Team
 
-### Sai Dithvika K
-- **Role:** UI/UX designer
-- **GitHub:** [@Sai Dithvika](https://github.com/Sai-Dithvika)
-- **Bio:** Sai is a creative UI/UX designer with a keen eye for detail. She enjoys crafting intuitive user experiences that delight users.
-### Kaarthi Raja J
-- **Role:** Frontend Developer
-- **GitHub:** [@Kaarthik](https://github.com/Kaarthik-07)
-- **Bio:** Kaarthik is a passionate software engineer with expertise in web development and machine learning. He loves building products that solve real-world problems.
+`Team number` : VH005
 
-### Mohammed Nayeem E
-- **Role:** Backend Developer
-- **GitHub:** [@Nayeem](https://github.com/MohammedNayeemE)
-- **Bio:** Nayeem is a versatile professional with expertise in both backend development and data science. With a background in statistics and machine learning, he excels in uncovering insights from data to drive business decisions. His proficiency in backend technologies complements his data science skills, making him a valuable asset to our team.
-
-### Abishek Manikandan M
-- **Role:** Project Presenter, Speaker
-- **GitHub:** [@teammategithubusername](https://github.com/teammategithubusername)
-- **Bio:** Abishek is a versatile team member known for their exceptional speaking and presentation skills. With a talent for articulating ideas clearly and persuasively, they excel as our project presenter, effectively communicating our project's concepts and vision. In addition to their proficiency in their ability to captivate an audience makes them a key asset to our team.
-##  The problem it solves
-
-- **Accessible Legal Education:** Our platform aims to make legal education accessible to every child, ensuring they understand their rights and responsibilities.
-- **Engaging Learning Experience:** We strive to make learning about legal rights interactive and enjoyable, fostering greater comprehension and retention among children.
-- **Empowering Tomorrow's Citizens:** By equipping children with knowledge of their legal rights from an early age, we empower them to be informed and engaged members of society.
-
+| Name    | Email           |
+|---------|-----------------|
+| Sai Dithvika | saidithvika@gmail.com |
+| Kaarthik Raja | kaarthik.s.professional@gmail.com |
+| Mohammed Nayeem | nayeemmohammed467@gmail.com |
+| Abishek Manikandan | abishekmanikandan.cse2022@citchennai.net |
 ## Real-Life Use Cases
 
 "Dora AI" is more than just an educational platform; it's a catalyst for change, empowering children with crucial legal knowledge in an engaging and accessible manner. Explore how "Dora AI" transforms various contexts with its innovative approach to legal education:
