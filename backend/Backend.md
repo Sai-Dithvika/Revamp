@@ -34,6 +34,11 @@ npm install cors express mongoose nodemon bcrypt dotenv jsonwebtoken pg openai n
 ```bash
 npm run start
 ```
+if facing difficulties while installing dependencies use docker instead
+```
+docker pull mohammednayeem467/backend
+docker run -p 6969:6969 backend
+```
 
 # BACKEND DOCS
 
@@ -121,6 +126,5 @@ further doubts ask me
     - success - 200 and ans as response
     - error - 500 , 404
 
-just take care about the amount of text user sends, don't allow the user to send more than 500 words
-complete the frontend, if any doubt ask anyone
+
 ```
