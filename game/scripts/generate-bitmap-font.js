@@ -17,10 +17,10 @@ const sizes = [{
 const doWork = async () => {
     const fontFamily = process.argv[2] || '"Press Start 2P"';
 
-    // eslint-disable-next-line no-restricted-syntax
+    
     for (const sizeData of sizes) {
         const { fontSize, fileName } = sizeData;
-        // eslint-disable-next-line no-await-in-loop
+        
         await TextStyle2BitmapFont(
             {
                 path: FONTS_PATH,
