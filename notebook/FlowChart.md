@@ -1,10 +1,9 @@
 <div align="center">
   <img src="https://github.com/images/modules/site/copilot/productivity-bg-head.png" width="100" alt="Dora AI" style="margin-right: 80px;" /> 
-  <img src="https://github.com/Sai-Dithvika/Vashisht-Hackathon/assets/118179484/6c37f2f1-efcd-473c-ab39-2d656899eaaf" width="100" alt="Dora AI" style="margin-left: 20px; margin-right: 80px;" />
+
   <br />
   <br />
-<img src="https://img.shields.io/badge/IIITDM-%23121011?style=for-the-badge&logoColor=%23ffffff&color=%23000000">
-<img src="https://img.shields.io/badge/Vashisht-%23121011?style=for-the-badge&color=blue">
+  
 <img src="https://img.shields.io/badge/Google-%23121011?style=for-the-badge&logoColor=%23ffffff&color=%23000000">
 <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&color=black">  
 </div>
@@ -48,5 +47,5 @@ In Quest to End Child Labour, players explore a vibrant village environment, int
 <br />
 <br />
 
-  <a href="https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/notebook/Navigation.md"><img src="https://github.com/t-aswath/mdeditor/assets/119417646/d9574fc2-aa05-4492-b23b-aa9f3e31c60d"></a>
+  <a href="https://github.com/Sai-Dithvika/Vashisht-Hackathon/blob/main/notebook/Navigation.md">Continue Reading</a>
 
