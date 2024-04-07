@@ -19,7 +19,7 @@
   is the new trend.</span>
           </h1>
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-          Welcome to Dora AI: Transformative AI-Powered Education for Kids! Embark on an interactive journey where learning meets adventure through captivating narratives and rich graphics. Join us in shaping the future of education!
+          Welcome to Dora AI: Transformative AI-Powered Education for Kids! Embark on an interactive journey where learning meets adventure through captivating narratives and rich graphics. Join us in shaping the future of education!!
           </p>
         </div>
         <h1 className="text-red-500"></h1>
