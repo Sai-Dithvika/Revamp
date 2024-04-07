@@ -27,8 +27,6 @@ https://github.com/Kaarthik-07/daksh-hackathon/assets/127304665/420f4438-b437-49
 |---------|-----------------|
 | Sai Dithvika | saidithvika@gmail.com |
 | Kaarthik Raja | kaarthik.s.professional@gmail.com |
-| Mohammed Nayeem | nayeemmohammed467@gmail.com |
-| Abishek Manikandan | abishekmanikandan.cse2022@citchennai.net |
 ## Real-Life Use Cases
 
 "Dora AI" is more than just an educational platform; it's a catalyst for change, empowering children with crucial legal knowledge in an engaging and accessible manner. Explore how "Dora AI" transforms various contexts with its innovative approach to legal education:
